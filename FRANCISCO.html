@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Basic I</title>
+    </head>
+
+    <body>
+        
+        <h1>Etiquetas Body Comunes</h1>
+
+
+
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus
+            velit lectus, ut congue ligula molestie nec. Fusce a facilisis risus. Nullam
+            id magna semper, semper eros quis, varius velit. Duis sagittis porta enim ac
+            mattis. Cum sociis natoque penatibus et magnis dis parturient montes, nascet
+            ur ridiculus mus. Donec sodales lorem id orci blandit, ac tincidunt lorem po
+            rta. Sed euismod a arcu sed mollis.</p>
+            <p>Maecenas imperdiet risus at nisl aliquet, eu ullamcorper enim imperdiet. Sed
+            id metus consectetur, sollicitudin eros at, dapibus ipsum. Morbi cursus nibh
+            sit amet porta fringilla. Nam egestas nisi dui, a varius lectus egestas non.
+            Nulla facilisi. Donec sed mauris vitae sem volutpat auctor nec eu nisi. Maec
+            enas quis diam consequat, semper felis ullamcorper, mollis nisi. Morbi turpi
+            s nulla, pellentesque sit amet erat eu, pretium sagittis mi. Fusce rhoncus i
+            mperdiet eros, ac porta ligula ullamcorper in. Suspendisse nulla urna, facil
+            isis non nunc ut, faucibus condimentum leo.</p>
+
+
+            <a href="https://www.google.com">Haz clic aquí para ir a Google</a>
+<a href="https://www.google.com">
+    <img src="https://i.pinimg.com/originals/43/3a/c4/433ac422ee798a469740c677ce3ba641.jpg" width="500" height="600">
+</a>
+<ul>
+    <li>
+        <a href="home.html">Home</a>
+    </li>
+    <li>
+        <a href="contáctanos.html">Acerca de</a>
+    </li>
+    <li>
+        <a href="contact_us.html">Contáctanos</a>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Número Telefónico</th>
+            <th>columna peliculas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nombre de Ejemplo</td>
+            <td>un_email@gmail.com</td>
+            <td>555-5555</td>
+            <td>el padrino</td>
+        </tr>
+        <tr>
+            <td>Otro Nombre</td>
+            <td>otro_email@gmail.com</td>
+            <td>444-4444</td>
+            <td>dragon ball</td>
+        </tr>
+        <tr>
+            <td>Nombre de Ejemplo</td>
+            <td>un_email@gmail.com</td>
+            <td>555-5555</td>
+            <td>dragon ball</td>
+        </tr>
+        <tr>
+            <td>Otro Nombre</td>
+            <td>otro_email@gmail.com</td>
+            <td>444-4444</td>
+            <td>dragon ball</td>
+        </tr>
+        <tr>
+            <td>Nombre de Ejemplo</td>
+            <td>un_email@gmail.com</td>
+            <td>555-5555</td>
+            <td>dragon ball</td>
+        </tr>
+        <tr>
+            <td>Otro Nombre</td>
+            <td>otro_email@gmail.com</td>
+            <td>444-4444</td>
+            <td>dragon ball</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre">
+<label for="apellido">Apellido:</label>
+<input type="text" id="apellido" name="apellido">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+
+
+<label for="password">Contraseña</label>
+<input type="password" id="password" name="pass">
+
+
+<select name="genero">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+    <option value="prefiero-no-decir">Prefiero no decir</option>
+</select>
+
+
+
+
+<form action="process.php" method="post">
+    <p>Por favor regístrese</p>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+   
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido">
+   
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+   
+    <p>Selecciona tu género:</p>
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+   
+    <label for="femenino">Female</label>
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    
+    <label for="decline">Prefiero no decir</label>
+    <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+   
+    <p>Selecciona 3 de tus colores favoritos:</p>
+    <label for="azul">Azul</label>
+    <input type="checkbox" id="azul" name="color" value="azul">
+    
+    <label for="verde">Verde</label>
+    <input type="checkbox" id="verde" name="color" value="verde">
+   
+    <label for="rojo">Rojo</label>
+    <input type="checkbox" id="rojo" name="color" value="rojo">
+    
+    <label for="negro">Negro</label>
+    <input type="checkbox" id="negro" name="color" value="negro">
+   
+    <label for="morado">Morado</label>
+    <input type="checkbox" id="morado" name="color" value="morado">
+    
+    <p>Escribe unas palabras sobre ti mismo:</p>
+    <textarea name="descripcion"></textarea>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password">
+   <label for="pw_confirm">Confirmación de Contraseña:</label>
+   <input type="password" id="pw_confirm" name="password_confirmacion">
+   
+   <input type="submit" value="Presiona aquí para registrarte">
+</form>
+
+    </body>
+
+</html>
