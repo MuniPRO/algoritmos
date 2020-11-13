@@ -25,6 +25,12 @@ console.log(y); // should log [1,3,5,...,253,255]
 //Configura un array para que los valores negativos se transformen en 0. Por ejemplo, resetNegativos([1,2,-1,-3]) debiera dar como resultado [1,2,0,0].
 
 
-4.- ALGORITMO 5
+4.- ALGORITMO 5.1
 
 //Dados un array y un valor Y, cuenta e imprime (print) el número de valores del array que sean mayores que Y. 
+
+//ESTO ES UN COMENTARIO
+function saludar(nombre)
+{
+	return "HOLA " + nombre; 
+}
