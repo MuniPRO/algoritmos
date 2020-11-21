@@ -30,8 +30,7 @@ console.log(arr);
 
 describe("pruena de la funcion burbuja", function() { 
     it("debe retornar [5, 6, 7, 8, 9] when  [9, 8, 7, 6, 5] is passed", function() { 
-        expect(burbuja([9, 8, 7, 6, 5])).toEqual([5, 6, 7, 8, 9]); 
+        expect(burbuja([9, 8, 7, 6, 5])).toEqual([5, 6, 7, 8, 1]); 
     }); 
 });
-
 
